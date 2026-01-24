@@ -1,0 +1,53 @@
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Dependencies & Builds
+# =========================
+node_modules/
+dist/
+dist-ssr/
+.vercel/
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Media Assets
+# =========================
+
+# ❌ DO NOT ignore images (React/Vite needs them)
+# *.jpg
+# *.jpeg
+# *.webp
+# *.svg
+
+# Optional: ignore large raw videos only
+*.mov
+*.webm
+
+# =========================
+# Editor / OS Files
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Local & Temp Files
+# =========================
+.cache/
